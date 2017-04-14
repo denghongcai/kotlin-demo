@@ -61,7 +61,7 @@ Object.assign = function (t) {
 
   resetEventLoop();
 
-   console.log('main javasript thread ' + Thread.currentThread().getName());
+//   console.log('main javasript thread ' + Thread.currentThread().getName());
 
   function resetEventLoop() {
     globalTimerId = 1;
@@ -107,7 +107,7 @@ Object.assign = function (t) {
 
   context.nashornEventLoop = {
     process: function () {
-       console.log('nashornEventLoop.process is called in thread ' + Thread.currentThread().getName())
+//       console.log('nashornEventLoop.process is called in thread ' + Thread.currentThread().getName())
       while (waitForMessages()) {
         processNextMessages()
       }

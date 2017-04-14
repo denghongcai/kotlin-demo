@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-study.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-study_jmh.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-study_jmh.iml" group="kotlin-study" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-study_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-study_main.iml" group="kotlin-study" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-study_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-study_test.iml" group="kotlin-study" />
     </modules>
   </component>
 </project>

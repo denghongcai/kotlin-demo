@@ -5,5 +5,5 @@ package ssr
  */
 
 fun main(args: Array<String>) {
-    Render.render()
+    Render().render()
 }
